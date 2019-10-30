@@ -1,0 +1,37 @@
+server:
+  port: 8002
+
+spring:
+  application:
+    name: focus-base
+  redis:
+    hostName: 192.168.197.131
+    port: 6379
+    password:
+    timeout: 5000
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
+    driver-class-name: com.mysql.cj.jdbc.Driver              # mysql驱动包
+    url: jdbc:mysql://192.168.197.131:3306/cloudDB03            # 数据库名称
+    username: root
+    password: password
+    dbcp2:
+      min-idle: 5                                           # 数据库连接池的最小维持连接数
+      initial-size: 5                                       # 初始化连接数
+      max-total: 5                                          # 最大连接数
+      max-wait-millis: 200                                  # 等待连接获取的最大超时时间
+
+eureka:
+  client:
+    service-url:
+      #      defaultZone: http://localhost:7001/eureka/
+      defaultZone: http://eureka7001.com:7001/eureka/
+  instance:
+    instance-id: spring-cloud-shiro-dept-74476
+    prefer-ip-address: true
+
+info:
+  app.name: spring-cloud-base
+  company.name: shiyitest.com
+  build.artifactId: @project.artifactId@
+  build.version: @project.version@

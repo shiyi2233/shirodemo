@@ -1,0 +1,12 @@
+GET http://localhost:8001/user/getUser
+
+<> 2019-10-17T030331.404.json
+
+###
+
+GET http://localhost:8001/user/getUser
+
+<> 2019-10-17T030200.200.txt
+
+###
+

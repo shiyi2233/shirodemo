@@ -1,0 +1,31 @@
+server:
+  port: 8003
+#这个用来测试注解开发的，主要用来尝试能不能去调用shiro
+
+spring:
+  application:
+    name: spring-cloud-shiro-annotation
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
+    driver-class-name: com.mysql.cj.jdbc.Driver              # mysql驱动包
+    url: jdbc:mysql://192.168.197.131:3306/cloudDB03            # 数据库名称
+    username: root
+    password: password
+    dbcp2:
+      min-idle: 5                                           # 数据库连接池的最小维持连接数
+      initial-size: 5                                       # 初始化连接数
+      max-total: 5                                          # 最大连接数
+      max-wait-millis: 200                                  # 等待连接获取的最大超时时间
+
+eureka:
+  client:
+#    register-with-eureka: false
+    service-url:
+      #      defaultZone: http://localhost:7001/eureka/
+      defaultZone: http://eureka7001.com:7001/eureka/
+  instance:
+    instance-id: spring-cloud-shiro-annotation-8003
+    prefer-ip-address: true
+ribbon:
+  eureka:
+    enabled: true

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-parent/spring-cloud-base/spring-cloud-base.iml" filepath="$PROJECT_DIR$/spring-cloud-parent/spring-cloud-base/spring-cloud-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-parent/spring-cloud-base/spring-cloud-base-api/spring-cloud-base-api.iml" filepath="$PROJECT_DIR$/spring-cloud-parent/spring-cloud-base/spring-cloud-base-api/spring-cloud-base-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-parent/spring-cloud-base/spring-cloud-base-impl/spring-cloud-base-impl.iml" filepath="$PROJECT_DIR$/spring-cloud-parent/spring-cloud-base/spring-cloud-base-impl/spring-cloud-base-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-parent/spring-cloud-eureka/spring-cloud-eureka.iml" filepath="$PROJECT_DIR$/spring-cloud-parent/spring-cloud-eureka/spring-cloud-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-parent/spring-cloud-parent.iml" filepath="$PROJECT_DIR$/spring-cloud-parent/spring-cloud-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-parent/spring-cloud-shiro/spring-cloud-shiro.iml" filepath="$PROJECT_DIR$/spring-cloud-parent/spring-cloud-shiro/spring-cloud-shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-parent/spring-cloud-shiro-annotation/spring-cloud-shiro-annotation.iml" filepath="$PROJECT_DIR$/spring-cloud-parent/spring-cloud-shiro-annotation/spring-cloud-shiro-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-parent/spring-cloud-shiro/spring-cloud-shiro-api/spring-cloud-shiro-api.iml" filepath="$PROJECT_DIR$/spring-cloud-parent/spring-cloud-shiro/spring-cloud-shiro-api/spring-cloud-shiro-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-parent/spring-cloud-shiro/spring-cloud-shiro-impl/spring-cloud-shiro-impl.iml" filepath="$PROJECT_DIR$/spring-cloud-parent/spring-cloud-shiro/spring-cloud-shiro-impl/spring-cloud-shiro-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-parent/spring-cloud-zuul/spring-cloud-zuul.iml" filepath="$PROJECT_DIR$/spring-cloud-parent/spring-cloud-zuul/spring-cloud-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-zuul-shiro.iml" filepath="$PROJECT_DIR$/spring-cloud-zuul-shiro.iml" />
+    </modules>
+  </component>
+</project>

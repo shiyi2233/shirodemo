@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-shiro-api" />
+        <module name="spring-cloud-base-api" />
+        <module name="spring-cloud-zuul" />
+        <module name="spring-cloud-base-impl" />
+        <module name="spring-cloud-eureka" />
+        <module name="spring-cloud-shiro-annotation" />
+        <module name="spring-cloud-shiro-impl" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dasdsa" target="1.8" />
+      <module name="spring-cloud-base" target="1.8" />
+      <module name="spring-cloud-base-api" target="1.8" />
+      <module name="spring-cloud-base-impl" target="1.8" />
+      <module name="spring-cloud-eureka" target="1.8" />
+      <module name="spring-cloud-parent" target="1.8" />
+      <module name="spring-cloud-shiro" target="1.8" />
+      <module name="spring-cloud-shiro-annotation" target="1.8" />
+      <module name="spring-cloud-shiro-api" target="1.8" />
+      <module name="spring-cloud-shiro-impl" target="1.8" />
+      <module name="spring-cloud-zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
